@@ -1,13 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
   <head>
-    <title>Angular 2 QuickStart</title>
+    <title>Hire me</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/static/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/static/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/static/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/static/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/static/favicon/manifest.json">
+    <link rel="shortcut icon" href="/static/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Peter Meehan">
+    <meta name="application-name" content="Peter Meehan">
+    <meta name="msapplication-TileColor" content="#03a9f4">
+    <meta name="msapplication-TileImage" content="/static/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#03a9f4">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <!-- 1. Load libraries -->
     <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
     <script src="node_modules/rxjs/bundles/Rx.umd.js"></script>
     <script src="node_modules/angular2/bundles/angular2-all.umd.js"></script>
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/hire.css" />
 
     <!-- 2. Load our 'modules' -->
     <script src='app/app.component.js'></script>
@@ -17,7 +41,11 @@
 
   <!-- 3. Display the application -->
   <body>
-    <my-app>Loading...</my-app>
+    <my-app>
+      <div class="progress load">
+        <div class="indeterminate"></div>
+      </div>
+    </my-app>
   </body>
 
 </html>

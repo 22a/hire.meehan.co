@@ -1,0 +1,68 @@
+@import "preloader";
+
+$head-font-color: #373a3c;
+$head-sneak-color: #d7dadc;
+
+$body-bg-color: #F5F5F5;
+
+body {
+  background-color: $body-bg-color;
+}
+
+.load {
+  position:fixed;
+  top: 50%;
+  margin-left:20%;
+  width: 60%;
+}
+
+.head {
+  text-align: center;
+
+  .static-head{
+    z-index: 0;
+    position: fixed;
+    margin-top: 100px;
+    color: $head-sneak-color;
+
+    &:hover {
+      color: $head-font-color;
+    }
+  }
+
+  .sneaky {
+    color: $head-font-color;
+  }
+
+  .head-preview {
+    height: 300px;
+    z-index:-1;
+  }
+
+  .img-container{
+    z-index: 10;
+    padding: 0;
+    img {
+      width: 100%;
+      user-drag: none;
+      -moz-user-select: none;
+      -webkit-user-drag: none;
+    }
+  }
+}
+
+.body {
+  -webkit-box-shadow: 0 0 45px 50px $body-bg-color;
+  -moz-box-shadow: 0 0 45px 50px $body-bg-color;
+  box-shadow: 0 0 45px 50px $body-bg-color;
+
+  z-index: 100;
+  position: relative;
+  height: 2000px;
+  background-color: $body-bg-color;
+
+}
+
+.foot {
+
+}
