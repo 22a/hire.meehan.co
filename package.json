@@ -1,6 +1,6 @@
 {
-  "name": "angular2-quickstart",
-  "version": "1.0.0",
+  "name": "hire.meehan.co",
+  "version": "1.0.1",
   "scripts": {
     "start": "npm run lite",
     "lite": "lite-server"

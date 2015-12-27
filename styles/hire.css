@@ -118,8 +118,7 @@ body {
     .body .point-card .lower {
       padding-top: 40px; }
     .body .point-card img {
-      width: 90%;
-      margin: 5%;
+      width: 100%;
       -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
       border-radius: 3px; }
