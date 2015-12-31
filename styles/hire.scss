@@ -110,10 +110,11 @@ body {
       -moz-border-radius: 2px;
       border-radius: 2px;
       font-size: 18px;
-      margin-top: 20px;
       padding: 10px;
       padding-left: 20px;
       padding-right: 20px;
+      margin-top: 150px;
+      z-index: 9001;
     }
 
     .disabled {
@@ -121,6 +122,10 @@ body {
       background-color: #fff;
       border: 1px solid $button-color;
       cursor: text;
+    }
+    .big-reveal {
+      margin-top: -200px;
+      visibility: hidden;
     }
   }
 

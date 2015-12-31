@@ -188,9 +188,12 @@
                   unsneakee.innerHTML = totoro.split('').reverse().join('') + "@" + noface.split('').reverse().join('') + ".co";
                   unsneakee.className = unsneakee.className + " disabled";
                   unsneakee.onclick = null;
+                  var yeoghan = document.getElementById("yeoghan");
+                  yeoghan.style.visibility = "visible";
                 }
               </script>
               <span class="electro-mailman" onClick="unsneak(this)">Reveal Email</span>
+              <img id="yeoghan" class="big-reveal" src="static/yeoghan.gif"/>
             </div>
           </div>
         </div>
