@@ -1,20 +1,7 @@
-# hire.meehan.co :ocean:
+# [hire.meehan.co](http://hire.meehan.co) :ocean:
 
-The dev repo for a site that should hopefully inform some nice software teams whether or not they should hire me this summer
+This is the dev repo for a site that should hopefully inform some nice software teams whether or not they should hire me this summer.
 
-___
+This was once an aspiring angular 2 app, poised for glory. I then decided it needn't really be build on top of angular at all, it is now static.
 
-### Development
-* Clone the thing
-* cd into the thing
-* Install the dependencies
-  ```
-  npm install
-  ```
-* Spin up the server
-  ```
-  npm start
-  ```
-
-### Deployment
-wip
+![static, indeed](http://www.sunnyskyz.com/uploads/2014/11/0qt1v-cat-jump.jpg)
