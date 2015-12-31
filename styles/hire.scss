@@ -8,6 +8,8 @@ $body-bg-color: #F5F5F5;
 $card-color: #FFFFFF;
 $card-shadow-color: #888888;
 
+$button-color: #28cb75;
+
 body {
   background-color: $body-bg-color;
   a, a:hover, a:visited {
@@ -99,11 +101,13 @@ body {
       border-radius: 3px;
 
     }
-    button {
-      background-color: #28cb75;
+
+    .electro-mailman {
+      background-color: $button-color;
+      display: inline-block;
       color: #fff;
       cursor: pointer;
-      border-color: transparent;
+      border: 1px solid transparent;
       -webkit-border-radius: 2px;
       -moz-border-radius: 2px;
       border-radius: 2px;
@@ -114,15 +118,14 @@ body {
       padding-right: 20px;
     }
 
-    //background-color: $card-color;
-    //-webkit-border-radius: 2px;
-    //-moz-border-radius: 2px;
-    //border-radius: 2px;
-    //-moz-box-shadow: 0px 0px 3px $card-shadow-color;
-    //-webkit-box-shadow: 0px 0px 3px $card-shadow-color;
-    //box-shadow: 0px 0px 3px $card-shadow-color;
-
+    .disabled {
+      color: $button-color;
+      background-color: #fff;
+      border: 1px solid $button-color;
+      cursor: text;
+    }
   }
+
   .center {
     text-align: center;
   }
